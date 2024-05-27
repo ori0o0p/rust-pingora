@@ -1,0 +1,9 @@
+[package]
+name = "load_balancer_2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pingora = { version = "0.2.0", features = [ "lb", "proxy" ] }
+async-trait = "0.1.80"
+libz-ng-sys = "1.1.15"
